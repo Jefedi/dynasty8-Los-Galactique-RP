@@ -46,6 +46,7 @@ nav:
 
 # Thème du site
 theme:
+  language: fr
   name: material
   logo: assets/dyanasty8.png
   icon:

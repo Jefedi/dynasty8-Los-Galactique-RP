@@ -1,0 +1,117 @@
+# Nom du site
+site_name: Dunasty8 - Los Galactique RP
+
+# URL du dépôt GitHub
+repo_url: https://github.com/Jefedi/ImmoWiki
+
+# Nom du dépôt GitHub
+repo_name: Jefedi/ImmoWiki
+
+# Navigation du site
+nav:
+  - Accueil: index.md
+  - Annonces Immobilières: 
+    - annonces/index.md 
+    - annonces/annonces-de-garages-pour-voitures.md
+    - annonces/villa.md
+    - annonces/maison.md
+    - annonces/appartement.md
+    - annonces/garage-voiture.md
+    - annonces/bureau.md
+    - annonces/club_de_bikers.md
+    - annonces/entrepot.md
+    - annonces/local.md
+  - Informations Generales: 
+    - pages/informations_generales/index.md
+    - pages/informations_generales/temoignages.md
+    - pages/informations_generales/contact.md
+    - pages/informations_generales/a_propos.md
+  - Ressources Utiles: 
+    - pages/ressources_utiles/index.md
+    - pages/ressources_utiles/guide.md
+    - pages/ressources_utiles/galerie.md
+    - pages/ressources_utiles/blog.md
+    - pages/ressources_utiles/faq.md
+  - Services et Outils: 
+    - pages/services_et_outils/index.md
+    - pages/services_et_outils/ressources.md
+    - pages/services_et_outils/services.md
+  - Legal: 
+    - pages/legal/index.md
+    - pages/legal/politique.md
+  - Page Test:
+      test.md
+
+
+
+
+# Thème du site
+theme:
+  name: material
+  logo: assets/dyanasty8.png
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      alert: material/alert
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    # - navigation.footer
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: grey
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# Extensions Markdown
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+
+# Plugins
+plugins:
+  - search
+  - tags
+  - git-revision-date-localized:
+      type: timeago
+
+# Paramètres supplémentaires
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/JGudwhRJ3t
+  version:
+    provider: Jefe
+  consent:
+    title: Consentement aux cookies
+    actions:
+      - accept
+      - reject
+      - manage
+    description: >- 
+      Nous utilisons des cookies pour reconnaître vos visites répétées et vos préférences, ainsi que pour mesurer l'efficacité de notre documentation et savoir si les utilisateurs trouvent ce qu'ils recherchent. En donnant votre consentement, vous nous aidez à améliorer notre documentation.
+  copyright: Copyright &copy; 2025 - 2025 Jefe
+  generator: false
+
+# Schéma pour le serveur de langage YAML
+yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json

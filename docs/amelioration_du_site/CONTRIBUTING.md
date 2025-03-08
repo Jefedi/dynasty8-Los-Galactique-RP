@@ -14,6 +14,6 @@ Avant de commencer, assurez-vous d'avoir les outils suivants installés sur votr
 1. **Cloner le Dépôt** :
    Commencez par cloner le dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/Jefedi/ImmoWiki.git
-   cd ImmoWiki
+   git clone https://github.com/Jefedi/dynasty8-Los-Galactique-RP.git
+   cd dynasty8-Los-Galactique-RP
    ```

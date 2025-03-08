@@ -39,8 +39,8 @@ nav:
   - Legal: 
     - pages/legal/index.md
     - pages/legal/politique.md
-  - Page Test:
-      test.md
+  # - Page Test:
+  #     test.md
 
 
 

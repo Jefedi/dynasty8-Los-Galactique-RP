@@ -12,7 +12,6 @@ nav:
   - Accueil: index.md
   - Annonces Immobilières: 
     - annonces/index.md 
-    - annonces/annonces-de-garages-pour-voitures.md
     - annonces/villa.md
     - annonces/maison.md
     - annonces/appartement.md
@@ -64,10 +63,6 @@ theme:
     # - navigation.tabs.sticky
   palette:
     # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: white
@@ -89,13 +84,17 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
 # Plugins
 plugins:
   - search
   - tags
+  - glightbox
   - git-revision-date-localized:
       type: timeago
+
 
 # Paramètres supplémentaires
 extra:

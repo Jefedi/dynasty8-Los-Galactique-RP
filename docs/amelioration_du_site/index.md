@@ -1,4 +1,4 @@
-# README
+# Documentation
 
 Bienvenue dans la documentation open-source de Dynasty8 . Ce projet vise à fournir une documentation complète et des ressources pour l'achat, la vente et la location de biens immobiliers.
 
@@ -56,7 +56,7 @@ Pour plus d'informations, consultez notre [guide de contribution](CONTRIBUTING.m
 
 ## Licence
 
-Ce projet est sous licence open-source. Voir le fichier [LICENSE](LICENSE/) pour plus de détails.
+Ce projet est sous licence open-source. Voir le fichier [LICENSE](/docs/amelioration_du_site/LICENSE.md) pour plus de détails.
 
 ***
 

@@ -41,6 +41,10 @@ nav:
     - pages/legal/politique.md
   # - Page Test:
   #     test.md
+  - Nous Aider a Ameliorer le Site:
+    - amelioration_du_site/index.md
+    - amelioration_du_site/CONTRIBUTING.md
+    - amelioration_du_site/CODE_OF_CONDUCT.md
 
 
 

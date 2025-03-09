@@ -88,7 +88,8 @@ markdown_extensions:
 
 # Plugins
 plugins:
-  - search
+  - search:
+      lang: fr
   - tags
   - glightbox
   - git-revision-date-localized:

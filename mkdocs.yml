@@ -113,6 +113,10 @@ extra:
   copyright: Copyright &copy; 2025 - 2025 Jefe
   generator: true
 
+extra_css:
+  - stylesheets/extra.css
+
+
 # Schéma pour le serveur de langage YAML
 yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
